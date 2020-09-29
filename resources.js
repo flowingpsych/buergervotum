@@ -1,5 +1,5 @@
 /**
- * @author André Kless <andre.kless@web.de> 2019-2020
+ * @author André Kless <andre.kless@web.de> 2020
  * @license The MIT License (MIT)
  */
 
