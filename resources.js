@@ -3,7 +3,7 @@
  * @license The MIT License (MIT)
  */
 
-ccm.files[ 'configs.js' ] = {
+ccm.files[ 'resources.js' ] = {
 
   "dashboard": {
     "data": {
