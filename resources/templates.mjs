@@ -84,5 +84,4 @@ export const main = ( instance, event, next, prev, add ) => html`
       
     </nav>
   </footer>
-  <aside id="feedback"></aside>
 `;

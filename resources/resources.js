@@ -10,9 +10,6 @@ ccm.files[ 'resources.js' ] = {
     "convert": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/helper.mjs#question2highchart" ],
     "css": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/styles.css" ],
     "diagram": [ "ccm.component", "https://ccmjs.github.io/akless-components/highchart/versions/ccm.highchart-3.0.2.js" ],
-    "feedback": [ "ccm.component", "https://ccmjs.github.io/tkless-components/feedback/versions/ccm.feedback-5.0.0.js", {
-      "data": { "store": [ "ccm.store", { "name": "buergervotum-feedback", "url": "https://ccm2.inf.h-brs.de" } ], "key": "app" }
-    } ],
     "font": [ "ccm.load", { "url": "https://fonts.googleapis.com/css?family=Courgette", "context": "head", "type": "css" } ],
     "helper": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/helper.mjs" ],
     "html": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/templates.mjs" ],
@@ -60,9 +57,6 @@ ccm.files[ 'resources.js' ] = {
     "convert": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/helper.mjs#question2highchart" ],
     "css": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/styles.css" ],
     "diagram": [ "ccm.component", "https://ccmjs.github.io/akless-components/highchart/versions/ccm.highchart-3.0.2.js" ],
-    "feedback": [ "ccm.instance", "https://ccmjs.github.io/tkless-components/feedback/versions/ccm.feedback-5.0.0.js", {
-      "data": { "store": [ "ccm.store", { "name": "buergervotum-feedback", "url": "https://ccm2.inf.h-brs.de" } ], "key": "app-nachbarschaft" }
-    } ],
     "font": [ "ccm.load", { "url": "https://fonts.googleapis.com/css?family=Courgette", "context": "head", "type": "css" } ],
     "helper": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/helper.mjs" ],
     "html": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/templates.mjs" ],
