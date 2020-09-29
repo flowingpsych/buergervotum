@@ -48,6 +48,18 @@ section#prev article {
   padding: 0.5em;
 }
 
+section#prev aside {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+section#prev #likes {
+  padding-left: 0.3em;
+  font-weight: bold;
+}
+
 section#next {
   width: 300px;
 }
