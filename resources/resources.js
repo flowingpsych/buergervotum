@@ -7,7 +7,7 @@
 ccm.files[ 'resources.js' ] = {
 
   "app": {
-    "convert": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/ressources/json2json.mjs#question2highchart" ],
+    "convert": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/ressources/helper.mjs#question2highchart" ],
     "css": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/ressources/styles.css" ],
     "diagram": [ "ccm.component", "https://ccmjs.github.io/akless-components/highchart/versions/ccm.highchart-3.0.2.js" ],
     "feedback": [ "ccm.component", "https://ccmjs.github.io/tkless-components/feedback/versions/ccm.feedback-5.0.0.js", {
