@@ -10,7 +10,10 @@ ccm.files[ 'resources.js' ] = {
       "store": [ "ccm.store", { "name": "quick_question", "url": "https://ccm2.inf.h-brs.de" } ],
       "key": {}
     },
-    "user": [ "ccm.instance", "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.4.0.js" ]
+    "user": [ "ccm.instance", "https://ccmjs.github.io/akless-components/user/versions/ccm.user-9.7.0.js", {
+      "guest": "admin",
+      "logged_in": true
+    } ]
   }
 
 };
