@@ -36,7 +36,7 @@ ccm.files[ 'resources.js' ] = {
       },
       "group": [ "admin" ]
     },
-    "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "buegervotum" } ],
+    "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "buergervotum" } ],
     "text": {
       "title": "Bürgervotum",
       "add_title": "Hier kannst du eine neue Frage stellen:",
