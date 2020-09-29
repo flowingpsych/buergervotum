@@ -14,7 +14,7 @@
 let ccm = window.ccm;
 
 /**
- * sets the _ccmjs_ version used by the help functions of this module
+ * sets the <i>ccmjs</i> version used by the help functions of this module
  * @param {Object} version - <i>ccmjs</i> version
  */
 export const use = version => ccm = version;
