@@ -95,7 +95,7 @@ import { render as litRender } from 'https://unpkg.com/lit-html';
 export const selection = ( questions, user ) => {
   const answered = [];
   shuffleArray( questions );
-  questions.filter( question => {
+  questions = questions.filter( question => {
     const is_answered = question.voting.yes[ user ] || question.voting.no[ user ] || question.voting.neither[ user ];
     if ( is_answered ) answered.push( question );
     return !is_answered;
