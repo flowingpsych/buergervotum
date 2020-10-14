@@ -89,9 +89,10 @@ import { render as litRender } from 'https://unpkg.com/lit-html';
 /**
  * defines which questions appear in which order in the app
  * @param {Object[]} questions - data of all available questions
+ * @param {string} user - unique key of the currently logged on user
  * @returns {Object[]} wanted questions in defined order
  */
-export const selection = questions => {
+export const selection = ( questions, user ) => {
   const answered = [];
   shuffleArray( questions );
   questions.filter( question => {
