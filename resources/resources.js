@@ -19,6 +19,7 @@ ccm.files[ 'resources.js' ] = {
       },
       "group": [ "admin" ]
     },
+    "selection": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/helper.mjs#selection" ],
     "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "buergervotum" } ],
     "text": {
       "title": "Bürgervotum",
@@ -52,6 +53,7 @@ ccm.files[ 'resources.js' ] = {
       },
       "group": [ "admin" ]
     },
+    "selection": [ "ccm.load", "https://flowingpsych.github.io/buergervotum/resources/helper.mjs#selection" ],
     "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "buergervotum-nachbarschaft" } ],
     "text": {
       "title": "Bürgervotum",

@@ -87,6 +87,25 @@ export const render = ( content, elem ) => litRender( content, elem );
 import { render as litRender } from 'https://unpkg.com/lit-html';
 
 /**
+ * defines which questions appear in which order in the app
+ * @param {Object[]} questions - data of all available questions
+ * @returns {Object[]} wanted questions in defined order
+ */
+export const selection = questions => {
+  const answered = [];
+  shuffleArray( questions );
+  questions.filter( question => {
+    const is_answered = question.voting.yes[ user ] || question.voting.no[ user ] || question.voting.neither[ user ];
+    if ( is_answered ) answered.push( question );
+    return !is_answered;
+  } );
+  const sortByLikes = ( a, b ) => Object.values( a.likes ).filter( like => like ).length - Object.values( b.likes ).filter( like => like ).length;
+  questions.sort( sortByLikes );
+  answered.sort( sortByLikes );
+  return questions.concat( answered );
+};
+
+/**
  * shuffles an array in place with the Fisher-Yates algorithm
  * @see https://stackoverflow.com/a/6274381
  * @param {Array} array
