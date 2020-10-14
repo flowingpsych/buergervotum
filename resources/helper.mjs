@@ -100,7 +100,7 @@ export const selection = ( questions, user ) => {
     if ( is_answered ) answered.push( question );
     return !is_answered;
   } );
-  const sortByLikes = ( a, b ) => Object.values( a.likes ).filter( like => like ).length - Object.values( b.likes ).filter( like => like ).length;
+  const sortByLikes = ( a, b ) => Object.values( b.likes ).filter( like => like ).length - Object.values( a.likes ).filter( like => like ).length;
   questions.sort( sortByLikes );
   answered.sort( sortByLikes );
   return questions.concat( answered );
