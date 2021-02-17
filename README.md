@@ -10,3 +10,6 @@ The more people use the app the more the results can be used to benchmark politi
 
 That way we can faciliate the acutalization of the goal of a democratic society: To foster justice and well-being equally for every citizen.
 
+Check the dummy here (in German):
+https://flowingpsych.github.io/buergervotum/
+
