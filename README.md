@@ -1,6 +1,6 @@
 # we together - wir zusammen
 
-With this project we as a democratic civilisation want to find out: <br>
+With this project we as a democratic civilization want to find out: <br>
 A) What is it, we agree on? <br>
 B) What is it, we don't agree on?<br>
 <br>
